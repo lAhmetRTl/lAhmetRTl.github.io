@@ -1,0 +1,9 @@
+<script>
+    let simdi = new Date();
+    let tarih = simdi.getFullYear() + "-" + 
+                ("0" + (simdi.getMonth() + 1)).slice(-2) + "-" + 
+                ("0" + simdi.getDate()).slice(-2) + " " + 
+                ("0" + simdi.getHours()).slice(-2) + ":" + 
+                ("0" + simdi.getMinutes()).slice(-2);
+    document.write(tarih);
+</script>
